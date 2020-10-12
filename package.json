@@ -1,0 +1,27 @@
+{
+  "name": "promises",
+  "version": "1.0.0",
+  "description": "CareAxiom task using RSVP Promises Library",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burhanmaseel/promises.git"
+  },
+  "author": "Burhan Maseel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burhanmaseel/promises/issues"
+  },
+  "homepage": "https://github.com/burhanmaseel/promises#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "rsvp": "^4.8.5"
+  }
+}
